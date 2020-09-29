@@ -24,9 +24,9 @@ export const Main = styled.main`
         height: 100%;
       }
       .right-image {
-        background: #7dbb91;
         width: 100%;
-        height: 100%;
+        height: auto;
+        text-align: center;
       }
     }
     .b {

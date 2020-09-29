@@ -1,6 +1,8 @@
 import React from "react";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 import { Sticky } from "../../styles";
+import fotomilena from "../../assets/milenamocci.jpg";
+import { Img } from "./styles";
 
 const FistAndSecound: React.FC = () => {
   const { scrollYProgress } = useViewportScroll();
@@ -92,7 +94,9 @@ const First: React.FC = () => {
                 y: rightSideY,
                 scale: rightSideScale,
               }}
-            />
+            >
+              <Img src={fotomilena} alt="" />
+            </motion.div>
           </div>
         </div>
         <div className="b"></div>
