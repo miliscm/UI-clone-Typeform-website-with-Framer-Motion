@@ -86,7 +86,7 @@ const First: React.FC = () => {
             style={{
               height: leftSideHeight,
             }}
-          />
+          ></motion.div>
           <div className="right-side">
             <motion.div
               className="right-image"

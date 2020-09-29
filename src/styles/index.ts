@@ -61,3 +61,12 @@ export const Sticky = styled(motion.div)`
   left: 0;
   right: 0;
 `;
+export const FooterContainer = styled.footer`
+  height: 100vh;
+  width: 100%;
+  background: #000;
+`;
+
+export const Parag = styled(motion.p)`
+  color: #fff;
+`;

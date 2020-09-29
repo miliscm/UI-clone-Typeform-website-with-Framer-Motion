@@ -1,6 +1,7 @@
 import React from "react";
 import GlobalStyles from "./styles/global";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { Main, Section, Sticky } from "./styles";
 import FirstAndSecound from "./components/FirstAndSecound";
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Sticky className="fourth" />
         </Section>
       </Main>
+      <Footer />
     </>
   );
 }
